@@ -10,7 +10,7 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    publicPath: 'https://www.mofazhuan.com/mobile-live-message/',
+    publicPath: 'https://www.mofazhuan.com/mobile-live-message/dist',
     path: path.resolve(__dirname, 'dist')
   },
     devServer: {
