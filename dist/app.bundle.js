@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "48a74d1aabeae0f7f98e";
+/******/ 	var hotCurrentHash = "d3d3369be27d7c09adbd";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -847,7 +847,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "https://www.mofazhuan.com/mobile-live-message/";
+/******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -925,7 +925,7 @@ eval("var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/run
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6b60a9b00b3a17ee5a043c9cf90977aa.jpg\");\n\n//# sourceURL=webpack:///./src/images/bg.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"https://www.mofazhuan.com/mobile-live-message/dist/bg.6b60a9b0.jpg\");\n\n//# sourceURL=webpack:///./src/images/bg.jpg?");
 
 /***/ }),
 
@@ -937,7 +937,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"e2aebaa747fdc294b74d0a7b254046d0.png\");\n\n//# sourceURL=webpack:///./src/images/face.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"https://www.mofazhuan.com/mobile-live-message/dist/face.e2aebaa7.png\");\n\n//# sourceURL=webpack:///./src/images/face.png?");
 
 /***/ }),
 
@@ -949,7 +949,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"b3868b1efaa757dbb7eeafc4ba7b27ff.png\");\n\n//# sourceURL=webpack:///./src/images/flower.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"https://www.mofazhuan.com/mobile-live-message/dist/flower.b3868b1e.png\");\n\n//# sourceURL=webpack:///./src/images/flower.png?");
 
 /***/ }),
 
@@ -961,7 +961,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"dd669b31927a0fa8f5c4d25130a76367.png\");\n\n//# sourceURL=webpack:///./src/images/rocket.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"https://www.mofazhuan.com/mobile-live-message/dist/rocket.dd669b31.png\");\n\n//# sourceURL=webpack:///./src/images/rocket.png?");
 
 /***/ }),
 

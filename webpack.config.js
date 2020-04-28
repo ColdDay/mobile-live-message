@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -10,13 +11,21 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.js',
-    publicPath: 'https://www.mofazhuan.com/mobile-live-message/dist',
     path: path.resolve(__dirname, 'dist')
   },
-    devServer: {
-        contentBase: './dist',
-        hot: true
-    },
+  devServer: {
+      contentBase: './dist',
+      hot: true
+  },
+  optimization: {
+    minimizer: [new UglifyJsPlugin({
+      sourceMap: false,
+      uglifyOptions :{
+        mangle: true
+      }
+    }
+    )]
+  },
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
@@ -37,7 +46,14 @@ module.exports = {
           {
             test: /\.(png|svg|jpg|gif)$/,
             use: [
-                'file-loader'
+              {
+                loader: 'file-loader',
+                query: {
+                  name: '[name].[hash:8].[ext]',
+                  outputPath: './',
+                  publicPath: 'https://www.mofazhuan.com/mobile-live-message/dist'
+                }
+              }
             ]
         }
       ]
