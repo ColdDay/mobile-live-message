@@ -1,0 +1,32 @@
+{
+  "name": "mobile-live-message",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "webpack-cli": "^3.3.11",
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.2.0",
+    "style-loader": "^1.2.0",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "./node_modules/webpack/bin/webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColdDay/mobile-live-message.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColdDay/mobile-live-message/issues"
+  },
+  "homepage": "https://github.com/ColdDay/mobile-live-message#readme"
+}
