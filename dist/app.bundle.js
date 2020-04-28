@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "86b9865c5ce3c27897d2";
+/******/ 	var hotCurrentHash = "48a74d1aabeae0f7f98e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -847,7 +847,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "https://www.mofazhuan.com/mobile-live-message/";
 /******/
 /******/ 	// __webpack_hash__
 /******/ 	__webpack_require__.h = function() { return hotCurrentHash; };
@@ -866,7 +866,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../images/bg.jpg */ \"./src/images/bg.jpg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \"html, body{\\n    padding: 0;\\n    margin: 0;\\n    height: 100%;\\n    \\n}\\n.phone{\\n    position: relative;\\n    margin: 0 auto;\\n    width: 100%;\\n    height: 100%;\\n    max-width: 500px;\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") no-repeat center;\\n    background-size: cover;\\n}\\n.send-input{\\n    position: absolute;\\n    left: 10px;\\n    bottom: 20px;\\n    padding: 10px 4px;\\n    font-size: 16px;\\n    width: 70%;\\n    border: 1px solid green;\\n    border-radius: 5px;\\n    text-align: left;\\n}\\n.send-btn{\\n    position: absolute;\\n    left: 80%;\\n    bottom: 20px;\\n    margin-left: 0px;\\n    padding: 8px 0;\\n    font-size: 16px;\\n    width: 60px;\\n    background: #23abe2;\\n    color: #fff;\\n    border: 1px solid green;\\n    border-radius: 5px;\\n    text-align: center;\\n    cursor: pointer;\\n}\\n.message-area{\\n    position: absolute;\\n    left: 10px;\\n    bottom: 80px;\\n    width: 60%;\\n    height: 200px;\\n}\\n\\n.mobile-live-message-item-text{\\n    background: rgba(0,0,0,0.3);\\n    margin-bottom: 10px;\\n    padding: 4px;\\n    color: #fff;\\n    border-radius: 4px;\\n    line-height: 1;\\n}\\n.icon{\\n    width: 20px;\\n    vertical-align: middle;\\n}\\n.mobile-live-message-item-text span{\\n    vertical-align: middle;\\n    padding-left: 10px;\\n    font-size: 14px;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/index.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../images/bg.jpg */ \"./src/images/bg.jpg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\n// Module\nexports.push([module.i, \"html, body{\\n    padding: 0;\\n    margin: 0;\\n    height: 100%;\\n    \\n}\\n.phone{\\n    position: relative;\\n    margin: 0 auto;\\n    width: 100%;\\n    height: 100%;\\n    max-width: 500px;\\n    background: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \") no-repeat center;\\n    background-size: cover;\\n}\\n.send-input{\\n    position: absolute;\\n    left: 10px;\\n    bottom: 20px;\\n    padding: 10px 4px;\\n    font-size: 16px;\\n    width: 70%;\\n    border: 1px solid green;\\n    border-radius: 5px;\\n    text-align: left;\\n}\\n.send-btn{\\n    position: absolute;\\n    left: 80%;\\n    bottom: 20px;\\n    margin-left: 0px;\\n    padding: 8px 0;\\n    font-size: 16px;\\n    width: 60px;\\n    background: #23abe2;\\n    color: #fff;\\n    border: 1px solid green;\\n    border-radius: 5px;\\n    text-align: center;\\n    cursor: pointer;\\n}\\n.message-area{\\n    position: absolute;\\n    left: 10px;\\n    bottom: 80px;\\n    width: 60%;\\n    height: 200px;\\n}\\n\\n.mobile-live-message-item-text{\\n    background: rgba(0,0,0,0.3);\\n    margin-bottom: 10px;\\n    padding: 4px;\\n    color: #fff;\\n    border-radius: 4px;\\n    line-height: 1;\\n    font-size: 14px;\\n}\\n.icon{\\n    width: 20px;\\n    vertical-align: middle;\\n}\\n.mobile-live-message-item-text span{\\n    vertical-align: middle;\\n    padding-left: 10px;\\n    font-size: 14px;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/css/index.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
