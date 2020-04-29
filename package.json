@@ -1,6 +1,6 @@
 {
   "name": "mobile-live-message",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "移动端直播消息组件",
   "main": "./src/lib/index.js",
   "dependencies": {
