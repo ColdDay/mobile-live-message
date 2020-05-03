@@ -77,6 +77,7 @@ function loop() {
     Mes.send(data);
     setTimeout(function() {
         loop()
+        // Mes.send(data)
     }, 3000)
 }
 loop();

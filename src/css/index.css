@@ -55,6 +55,7 @@ html, body{
     border-radius: 4px;
     line-height: 1;
     font-size: 14px;
+    display: inline-block;
 }
 .icon{
     width: 20px;
@@ -68,19 +69,28 @@ html, body{
 .mobile-live-message-box::-webkit-scrollbar{
     width:0px;
     height:0px;
-    /**/
-  }
-  .mobile-live-message-box::-webkit-scrollbar-track{
+}
+.mobile-live-message-box::-webkit-scrollbar-track{
     background: rgba(0, 0, 0, 0);
     border-radius:2px;
-  }
-  .mobile-live-message-box::-webkit-scrollbar-thumb{
+}
+.mobile-live-message-box::-webkit-scrollbar-thumb{
     background: rgba(0, 0, 0, 0);;
     border-radius:10px;
-  }
-  .mobile-live-message-box::-webkit-scrollbar-thumb:hover{
+}
+.mobile-live-message-box::-webkit-scrollbar-thumb:hover{
     background: rgba(0, 0, 0, 0);
-  }
-  .mobile-live-message-box::-webkit-scrollbar-corner{
+}
+.mobile-live-message-box::-webkit-scrollbar-corner{
     background: rgba(0, 0, 0, 0);
-  }
+}
+.mobile-live-message-box{
+    position: relative;
+}
+/* .mobile-live-message-content-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+} */

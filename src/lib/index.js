@@ -11,6 +11,7 @@
         myParentEle.style.width = '100%';
         myParentEle.style.height = '100%';
         myParentEle.style.overflow = 'auto';
+        myParentEle.style.webkitMask = '-webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)),color-stop(60%,#d78585))';
         container.appendChild(myParentEle)
         
         var contentBox = document.createElement('div');
@@ -19,6 +20,12 @@
         this.parentElement = contentBox;
         this.options = {...options};
         this.stopScroll = false;
+        this.send('');
+        this.send('');
+        this.send('');
+        this.send('');
+        this.send('');
+        // this.send('');
         myParentEle.addEventListener('touchend', (e) => {
             var bottomLen = Math.abs(myParentEle.scrollTop - (contentBox.offsetHeight - myParentEle.offsetHeight));
             if (bottomLen > 30) {
@@ -45,16 +52,23 @@
                 if (this.options.format) {
                     content = this.options.format(mesItem);
                 }
-                str += `<div class="mobile-live-message-item-text">${content}</div>`
+                if (content) {
+                    str += `<div class="mobile-live-message-item-text">${content}</div><br>`
+                }
+                
             }
         } else if (data instanceof Object) {
             let content = data.text;
             if (this.options.format) {
                 content = this.options.format(data)
             } 
-            str = `<div class="mobile-live-message-item-text">${content}</div>`
+            str = `<div class="mobile-live-message-item-text">${content}</div><br>`
         } else {
-            str = `<div class="mobile-live-message-item-text">${data || ''}</div>`
+            if (data) {
+                str = `<div class="mobile-live-message-item-text">${data || ''}</div><br>`
+            } else {
+                str = `<br>`
+            }
         }
         var par = document.querySelector('.mobile-live-message-box');
         div.innerHTML = str;
