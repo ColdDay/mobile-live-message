@@ -13,7 +13,6 @@
         myParentEle.style.overflow = 'auto';
         myParentEle.style.webkitMask = '-webkit-gradient(linear, left bottom, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)),color-stop(60%,#d78585))';
         container.appendChild(myParentEle)
-        
         var contentBox = document.createElement('div');
         contentBox.className = 'mobile-live-message-content-box';
         myParentEle.appendChild(contentBox);
@@ -29,13 +28,11 @@
         myParentEle.addEventListener('touchend', (e) => {
             var bottomLen = Math.abs(myParentEle.scrollTop - (contentBox.offsetHeight - myParentEle.offsetHeight));
             if (bottomLen > 30) {
-                console.log('停止自动滚动底部')
                 this.stopScroll = true;
                 setTimeout(() => {
                     this.stopScroll = false;
                 }, 50000)
             } else {
-                console.log('开启滚动')
                 this.stopScroll = false;
             }
         })
@@ -48,7 +45,10 @@
         if (data instanceof Array) {
             for (let index = 0; index < data.length; index++) {
                 const mesItem = data[index];
-                let content = mesItem.text;
+                let content = mesItem;
+                if (mesItem instanceof Object) {
+                    content = mesItem.text;
+                }
                 if (this.options.format) {
                     content = this.options.format(mesItem);
                 }
@@ -70,7 +70,6 @@
                 str = `<br>`
             }
         }
-        var par = document.querySelector('.mobile-live-message-box');
         div.innerHTML = str;
         this.parentElement.appendChild(div);
         if (this.stopScroll) {
