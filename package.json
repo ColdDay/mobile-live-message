@@ -4,14 +4,14 @@
   "description": "移动端直播消息组件",
   "main": "./src/lib/index.js",
   "dependencies": {
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
-    "css-loader": "^3.5.3",
+    "css-loader": "^6.7.3",
     "file-loader": "^6.0.0",
-    "html-webpack-plugin": "^4.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "style-loader": "^1.2.0",
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack-dev-server": "^3.10.3"
